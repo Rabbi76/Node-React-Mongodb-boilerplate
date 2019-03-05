@@ -1,0 +1,38 @@
+.header {
+    overflow: hidden;
+    background-color:  #212220 ;
+    padding: 5px;
+}
+
+.header a {
+    color: #f1f1f1;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.header a.logo {
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: none;
+}
+
+.header-right {
+    float: right;
+    margin-top: 20px;
+}
+
+.header-left {
+    float: left;
+}
+
+.logo {
+    height: 30px;
+}
+

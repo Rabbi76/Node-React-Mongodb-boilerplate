@@ -1,0 +1,57 @@
+{
+  "name": "rabbi_boilerplate",
+  "version": "1.0.0",
+  "description": "This is a boilerplate project using the following technologies: - React, Redux and React Router for the frontend - Express and Mongoose for the backend - Sass for styles (using the SCSS syntax) - Webpack for compilation. A Complete BoilerPlate In React, Redux, Node Express, MongoDB, Webpack, Route, Babel.",
+  "scripts": {
+    "start": "development webpack -w & nodemon server.js",
+    "start:dev": "node server"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "author": "Fazla Rabbi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rabbi76/boilerplate"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer": "^9.4.10",
+    "axios": "^0.18.0",
+    "babel-loader": "^8.0.5",
+    "connect-history-api-fallback": "^1.6.0",
+    "copy-webpack-plugin": "^5.0.0",
+    "css-loader": "^2.1.0",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mongoose": "^5.4.17",
+    "mongoose-history": "^0.8.0",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.10",
+    "npm": "^6.8.0",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.8.3",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-dom": "^16.8.3",
+    "react-hot-loader": "^4.7.2",
+    "react-redux": "^6.0.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^6.1.0",
+    "redux-thunk": "^2.2.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-middleware": "^3.6.0",
+    "webpack-hot-middleware": "^2.24.3",
+    "webpack-merge": "^4.2.1"
+  }
+}
