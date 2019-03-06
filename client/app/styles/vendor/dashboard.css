@@ -1,4 +1,22 @@
-.margin10{
+.margin10 {
     margin: 10px;
 }
 
+.marginTop20 {
+    margin-top: 20px;
+}
+
+.main {
+    margin-left: 50px;
+    /* Same as the width of the sidenav */
+}
+
+.myHover{
+  background: brown !important ;
+  color: aliceblue !important ;
+  opacity: 1 !important;
+  font-size: 15px !important ;
+  padding: 10px !important ;
+  z-index: 999 !important ;
+
+}

@@ -25,6 +25,15 @@ npm install
 npm start
 ```
 
+## Run Problem
+-If you can't run the boilerplate then you can change the start script from package.json
+```shell
+webpack -p --progress --profile --colors && node server 
+```
+-insted of using 
+```shell
+development webpack -w & nodemon server.js
+```
 ## Have a good day
 ## By: Md. Fazla Rabbi
 
