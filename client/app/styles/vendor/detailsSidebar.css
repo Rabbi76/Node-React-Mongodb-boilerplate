@@ -1,0 +1,28 @@
+.detailsSidenav {
+    height: 86%;
+    width: 200px;
+    position: fixed;
+    background-color: #3f413a;
+    margin-top: -20px;
+    
+    /* overflow-x: hidden; */
+}
+
+.detailsSidenav a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #A5A59F;
+    display: block;
+}
+
+.detailsSidenav a:hover {
+    /* background-color: #ddd; */
+    color: #ffffff;
+    text-decoration: none;
+}
+.detailsSidenav a:active {
+    /* background-color: #ddd; */
+    color: #ffffff;
+    text-decoration: none;
+}

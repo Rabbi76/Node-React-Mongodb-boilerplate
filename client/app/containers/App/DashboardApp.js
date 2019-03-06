@@ -10,9 +10,7 @@ const DashboardApp = ({ children }) => (
     <Sidebar/>
     <div className="main">
     <Header />
-    <div className="col-md-12">
     {children}
-    </div>
     <Footer />
     </div>
     

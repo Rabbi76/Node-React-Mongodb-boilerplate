@@ -37,11 +37,11 @@ render((
             <Route exact path="/dashboard" component={Dashboard} />
           </DashboardApp>
 
-         
+          <Route component={NotFound} />
 
         </Switch>
       </App>
-      {/* <Route path="*" status={404} component={NotFound} /> */}
+
     </Router>
   </Provider>
 ), document.getElementById('app'));

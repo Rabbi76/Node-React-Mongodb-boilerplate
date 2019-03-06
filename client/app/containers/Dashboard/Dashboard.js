@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { connect } from 'react-redux';
 import { Link, withRouter, Route, NavLink } from "react-router-dom";
+import DetailsSidebar from '../Home/DetailsSidebar';
 import { Button, SplitButton, MenuItem, Form, FormControl, FormGroup, InputGroup, ControlLabel, Col, HelpBlock, Modal } from 'react-bootstrap';
 
 //action import
@@ -34,8 +35,15 @@ class Dashboard extends Component {
 
 
         return (
-            <div className="marTop50 myList">
-                <h2>Welcome To DashBoard</h2>
+            <div>
+
+                    <DetailsSidebar />
+                
+
+                <div className="marTop50 mainView">
+
+                    <h2>Welcome To DashBoard</h2>
+                </div>
             </div>
 
         );
