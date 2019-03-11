@@ -1,3 +1,6 @@
+.margin5 {
+    margin: 5px;
+}
 .margin10 {
     margin: 10px;
 }
@@ -21,5 +24,5 @@
 
 }
 .mainView{
-    margin-left: 200px;
+    margin-left: 20px;
 }

@@ -6,7 +6,7 @@ class Footer extends Component {
     render() {
         return (
             <div className="footer">
-               A Product of Rabbiii
+               A Product of Rabbiii 
             </div>
         );
     }

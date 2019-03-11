@@ -1,16 +1,16 @@
 .header {
     overflow: hidden;
     background-color:  #212220 ;
-    padding: 5px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 32px;
 }
 
 .header a {
     color: #f1f1f1;
     text-align: center;
-    padding: 8px;
+    padding: 10px;
     text-decoration: none;
-    font-size: 14px;
-    line-height: 25px;
 }
 
 .header a.logo {
@@ -20,19 +20,28 @@
 .header a:hover {
     background-color: #ddd;
     color: black;
+    font-weight: bold;
     text-decoration: none;
 }
 
 .header-right {
     float: right;
-    margin-top: 10px;
 }
 
 .header-left {
     float: left;
+}
+.header-box{
+    background: #2D2D2D;
+    border-right: 2px solid black;
+    padding: 10px 26px !important;
 }
 
 .logo {
     height: 30px;
 }
 
+.header-icon{
+    line-height: 27px;
+    font-size: 15px;
+}

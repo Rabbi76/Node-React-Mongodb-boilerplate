@@ -6,7 +6,7 @@ import { Button, SplitButton, MenuItem, FormControl, FormGroup, InputGroup, Col,
 
 
 const DashboardApp = ({ children }) => (
-  <div className="margin10">
+  <div className="margin5">
     <Sidebar/>
     <div className="main">
     <Header />

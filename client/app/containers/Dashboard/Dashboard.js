@@ -37,7 +37,7 @@ class Dashboard extends Component {
         return (
             <div>
 
-                    <DetailsSidebar />
+                    {/* <DetailsSidebar /> */}
                 
 
                 <div className="marTop50 mainView">
